@@ -1,0 +1,6 @@
+n = input("Digite um número: ")
+div = n.split()
+print("Unidade: ", len(n))
+print("Dezena: ", div[0][2])
+print("Centena: ", div[0][1])
+print("Milhar: ", div[0][0])
